@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gruping Tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-image: linear-gradient(to left, #00ffea, #00b5fc);
+            margin:0px;
+        }
+        header{
+            background-color: aliceblue;
+            padding: 10px;
+            border-radius: 10px;
+            margin: 10px;
+        }
+        nav{
+            background-color: #5d83c7;
+            padding: 5px;
+            box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.438);
+            border-radius: 3px;
+        }
+        nav > a{
+            text-decoration: none;
+            color: aliceblue;
+            font-weight: normal;
+            margin-right: 30px;
+       }
+       nav > a:hover{
+         font-weight: bold;
+         color:darkblue;
+       }
+        main{
+            background-color: aliceblue;
+            margin: 10px;
+            padding: 10px;
+            border-radius: 10px 10px;
+            box-shadow: 5px 5px rgba(0, 0, 0, 0.445);
+        }
+        article{
+            background-color:lightgrey;
+            padding: 5px;
+        }
+        article > aside{
+            background-color: rgb(128, 127, 127);
+            
+        }
+        footer{
+            background-color: #5d83c7;
+            text-align: center;
+            color: white;
+            padding: 5px;
+        }
+        footer > p{
+            margin: 0px;
+        }
+    </style>
+</head>
+<body>
+   <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+        </nav>
+   </header>
+   <main>
+        <section>
+            <p>Esporte política Atualidade</p>
+        </section>
+        <section>
+            <article>
+                <h2>Notícia sobre o Brasil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere a autem maiores, hic doloribus, pariatur earum ullam fuga sunt quia reprehenderit vero odio aut deleniti at cupiditate nisi accusantium illum!</p>
+                <aside>
+                    <p>Artigo escrito por Fulaninho</p>
+                </aside>
+            </article>
+            <article>
+                    <h2>Aconteceu no Mundo</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corrupti accusamus rerum sit magni quae commodi excepturi autem repellendus expedita, veritatis perferendis aliquid architecto molestias voluptate provident necessitatibus sapiente illo quas.</p>
+            </article>
+        </section>
+   </main>
+   <footer>
+        &copy;Thiago René
+   </footer>
+</body>
+</html>

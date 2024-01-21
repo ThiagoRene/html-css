@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-bt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        a{
+            color: blue;
+            text-decoration: none;
+        }
+        a:visited{
+            color:slateblue;
+        }
+        a:hover{
+            font-weight: bold;
+        }
+        a:active{
+            color:red;
+        }
+        a::after{
+            content:'\1F517';
+            font-weight: normal;
+            color: black;
+        }
+        p::first-letter{
+           font-family: 'celta';
+           font-size: 30px;
+         
+        }
+        @font-face{
+            font-family: "Celta";
+            src: url('celticmd.ttf') format(truetype);
+        }
+    </style>
+</head>
+<body>
+    <h1>Personalizando links</h1>
+    <ul>
+        <li><a href="https://github.com/gustavoguanabara">Repositório GitHub</a></li>
+        <li><a href="https://www.youtube.com/@CursoemVideo">Canal do youtube</a></li>
+        <li><a href="https://www.cursoemvideo.com/">Site do curso em vídeo</a></li>
+       <p>Grinn psum, dolor sit amet consectetur adipisicing elit. Magni obcaecati ad sequi autem qui dolores repudiandae, at incidunt nostrum explicabo, minima dolorum nihil fuga eos in ipsam rem totam voluptates?</p>
+    </ul>
+</body>
+</html>

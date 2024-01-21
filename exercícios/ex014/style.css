@@ -1,0 +1,14 @@
+@charset "UTF-8";
+
+div#estilo{
+    background: rgb(0, 140, 255);
+    color: azure;
+    width: 600px;
+    margin: auto;
+    padding: 10px;
+    height: 600px;
+    border-radius: 10px;
+}
+body{
+    background: rgba(0, 204, 255, 0.307);
+}
